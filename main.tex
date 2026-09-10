@@ -1,0 +1,331 @@
+\documentclass[11pt,a4paper]{article}
+
+% =========================================================
+% PACKAGES
+% =========================================================
+\usepackage[margin=0.5in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[scaled]{helvet}
+\renewcommand\familydefault{\sfdefault}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{titlesec}
+
+% =========================================================
+% ATS / PDF CONFIGURATION
+% =========================================================
+\DisableLigatures{encoding = *, family = *}
+
+\definecolor{linkblue}{RGB}{0,80,200}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=linkblue,
+    urlcolor=linkblue,
+    pdftitle={Anand Ubarhanade Resume},
+    pdfauthor={Anand Ubarhanade}
+}
+
+% =========================================================
+% SPACING
+% =========================================================
+\setlist[itemize]{
+    noitemsep,
+    topsep=1pt,
+    parsep=2pt,
+    partopsep=0pt,
+    leftmargin=1.2em
+}
+
+\titleformat{\section}
+  {\large\bfseries\MakeUppercase}
+  {}
+  {0pt}
+  {}
+  [\vspace{2pt}\hrule height 0.5pt]
+
+\titlespacing*{\section}
+  {0pt}
+  {8pt}
+  {4pt}
+
+% =========================================================
+% RESUME ENTRY
+% =========================================================
+\newcommand{\resumeentry}[4]{%
+  \noindent\textbf{#1}\hfill #2\\
+  \noindent\textit{#3}\hfill\textit{#4}\\
+  \vspace{1pt}
+}
+
+% =========================================================
+% DOCUMENT
+% =========================================================
+\begin{document}
+\pagestyle{empty}
+
+% =========================================================
+% HEADER
+% =========================================================
+
+\begin{center}
+    {\Huge\bfseries Anand Ubarhande}\\[3pt]
+    \large\textbf{AI-First Software Engineer | Agentic AI | AI Systems}\\[5pt]
+    \small
+    Mumbai, India \quad | \quad
+    \href{mailto:anandgu2002@gmail.com}{anandgu2002@gmail.com}
+    \quad | \quad
+    +91 94219 03054\\[3pt]
+    \href{https://linkedin.com/in/anand3977/}{linkedin.com/in/anand3977}
+    \quad | \quad
+    \href{https://anand-ubarhande-portfolio.vercel.app/}{anand-portfolio.vercel.app}
+    \quad | \quad
+    \href{https://github.com/ianand3977}{github.com/ianand3977}
+\end{center}
+
+% =========================================================
+% PROFESSIONAL SUMMARY
+% =========================================================
+
+\section*{Professional Summary}
+
+\noindent
+\textbf{AI-First Software Engineer} focused on building agentic systems,
+AI-powered products, and scalable backend services. Hands-on experience
+with \textbf{LangGraph, FastAPI, Node.js, React, and Azure},
+combining AI orchestration with full-stack engineering and cloud
+deployment. Currently leading a \textbf{12-member cross-functional team}
+on an enterprise workforce intelligence solution that has supported
+\textbf{1,120+ interviews}, \textbf{120+ demand-aligned selections},
+and \textbf{300+ training roll-ins}. Experienced in translating
+organizational problems into software products, leading technical
+delivery, and enabling AI adoption across engineering and leadership
+teams.
+
+% =========================================================
+% TECHNICAL SKILLS
+% =========================================================
+
+\section*{Technical Skills}
+
+\begin{itemize}
+
+    \item \textbf{AI \& Agentic Systems:}
+    LangGraph, LangChain, LlamaIndex, LLM APIs,
+    Agentic Workflows, RAG, Prompt Engineering,
+    Structured LLM Outputs, LLM Evaluation
+
+    \item \textbf{Backend \& Application Development:}
+    Python, FastAPI, Node.js, Express, React,
+    ASP.NET Core, REST APIs
+
+    \item \textbf{Databases \& Search:}
+    PostgreSQL, MongoDB, SQL Server, MySQL,
+    pgvector, Azure AI Search, ChromaDB
+
+    \item \textbf{Cloud \& DevOps:}
+    Microsoft Azure, Azure OpenAI, App Service,
+    Blob Storage, Key Vault, Docker, Azure DevOps,
+    Git, Vercel, Render
+
+    \item \textbf{AI-Assisted Engineering:}
+    GitHub Copilot, Claude Code,
+    Specification-Driven Development
+
+\end{itemize}
+
+% =========================================================
+% WORK EXPERIENCE
+% =========================================================
+
+\section*{Work Experience}
+
+\resumeentry
+{AI-First Systems Engineer}
+{Jul 2025 -- Present}
+{Capgemini}
+{Mumbai, India}
+
+\begin{itemize}
+
+    \item \textbf{Led a 12-member cross-functional team} spanning
+    engineering, QA, UI/UX, and business stakeholders to design and
+    deliver an enterprise workforce intelligence and talent deployment
+    solution.
+
+    \item \textbf{Translated workforce and staffing challenges into
+    product capabilities} that map available talent to project/client
+    demand, identify skill gaps, filter bench talent, and direct
+    employees toward relevant training opportunities.
+
+    \item \textbf{Scaled the solution to 1,120+ interviews}, enabling
+    \textbf{120+ people to be identified and selected against client
+    demand} and routing \textbf{300+ employees into training} to improve
+    workforce utilization and support revenue realization.
+
+    \item Owned major aspects of the product lifecycle, including
+    \textbf{product ideation, solution design, technical implementation,
+    stakeholder alignment, and cross-functional delivery}.
+
+    \item Engineered \textbf{agentic workflows} with LangGraph and CrewAI,
+    integrating LLM-based reasoning and orchestration into enterprise
+    software workflows.
+
+    \item Built \textbf{microservice-based backend systems} using
+    FastAPI and Node.js and deployed services on Microsoft Azure.
+
+    \item \textbf{Led hands-on Generative AI enablement for 100+ leadership
+    directors and senior project managers}, covering Specification-Driven
+    Development, prompt engineering, AI coding assistants, and practical
+    AI-assisted software development.
+
+\end{itemize}
+
+\vspace{0.2cm}
+
+\resumeentry
+{Software Developer Intern}
+{Jan 2025 -- Jul 2025}
+{Capgemini}
+{Remote / Onsite}
+
+\begin{itemize}
+
+    \item Delivered full-stack enterprise features using
+    \textbf{.NET Web API, SQL Server, and Angular}, including JWT
+    authentication and email notification workflows.
+
+    \item \textbf{Guided a 5-member development team} in delivering a
+    Railway Management System using .NET MVC.
+
+    \item Implemented modular APIs for an Airline Management System,
+    supported by Swagger documentation and unit tests.
+
+    \item Explored enterprise Generative AI through Capgemini's GenAI
+    training program, including RAG pipelines, prompt engineering,
+    and privacy-conscious LLM integration.
+
+\end{itemize}
+
+% =========================================================
+% SELECTED PROJECTS
+% =========================================================
+
+\section*{Projects}
+
+\resumeentry
+{WiseTree}
+{Dec 2024}
+{B2B AI-Powered Assessment Platform}
+{\href{https://wisetree-exam-main.vercel.app/login}{wisetree live}}
+
+\begin{itemize}
+
+    \item \textbf{Built and deployed a B2B assessment platform} adopted
+    by Shivani Coaching Classes with \textbf{60+ active students},
+    reducing test creation time by \textbf{80\%}.
+
+    \item Engineered structured LLM generation using
+    \textbf{Pydantic, Instructor, and Google Gemini Pro}, with
+    self-correcting retry middleware to improve output reliability.
+
+    \item Created an \textbf{LLM-as-a-Judge validation pipeline} and
+    Confidence--Accuracy Matrix dashboard for evaluating AI-generated
+    assessment content.
+
+    \item Delivered the full-stack system using
+    \textbf{React, Express, PostgreSQL, and MongoDB}, with frontend
+    and backend deployments through Vercel, Render, and GitHub-based
+    CI/CD.
+
+\end{itemize}
+
+\vspace{0.2cm}
+
+\resumeentry
+{HTTPPaw}
+{Jan 2024}
+{MERN Stack Web Application}
+{\href{https://http-paw.vercel.app/}{Live Application}}
+
+\begin{itemize}
+
+    \item Developed a MERN application with registration, email
+    verification, JWT authentication, and Google OAuth.
+
+    \item Implemented CRUD workflows and an interactive dashboard for
+    searching, viewing, saving, and editing HTTP-status-based data.
+
+\end{itemize}
+
+% =========================================================
+% LEADERSHIP & ADDITIONAL IMPACT
+% =========================================================
+
+\section*{Leadership \& Additional Impact}
+
+\begin{itemize}
+
+    \item \textbf{AI Enablement:} Selected to lead practical Generative AI
+    sessions for \textbf{100+ leadership directors and senior project
+    managers}, including professionals with 10+ years of experience.
+
+    \item \textbf{Cross-Functional Leadership:} Worked across developers,
+    QA, UI/UX, business stakeholders, and project leadership to translate
+    business requirements into AI-enabled software solutions.
+
+    \item \textbf{AI Development Practices:} Conducted interactive
+    sessions and a hackathon on Specification-Driven Development,
+    prompt craftsmanship, model selection, and AI coding assistants.
+
+\end{itemize}
+
+% =========================================================
+% EDUCATION
+% =========================================================
+
+\section*{Education}
+
+\resumeentry
+{Bachelor of Technology -- Computer Science and Engineering}
+{Aug 2021 - June 2025}
+{Lovely Professional University}
+{Punjab, India}
+
+% =========================================================
+% CERTIFICATIONS
+% =========================================================
+
+\section*{Certifications}
+
+\resumeentry
+{Claude Certified Developer -- Foundations}
+{Aug 2026}
+{Anthropic}
+{}
+
+\resumeentry
+{Prompt Design in Vertex AI Skill Badge}
+{Jul 2025}
+{Google Cloud}
+{}
+
+\resumeentry
+{Tech-A-Thon}
+{Sep 2022}
+{iNeuron}
+{}
+
+% =========================================================
+% LANGUAGES
+% =========================================================
+
+\section*{Languages}
+
+English (Fluent) \quad | \quad
+Hindi (Fluent) \quad | \quad
+Marathi (Fluent)
+
+\end{document}
